@@ -53,7 +53,7 @@ def make_confusion_matrix(y_true, y_pred, classes=None, figsize=(10, 10), text_s
          yticks=np.arange(n_classes), 
          xticklabels=labels, # axes will labeled with class names (if they exist) or ints
          yticklabels=labels)
-  ax.title.set_size(50)
+  ax.title.set_size(80)
     # (plot x label vertically)
   plt.xticks(rotation=70, fontsize=text_size)
   plt.yticks(fontsize=text_size)
