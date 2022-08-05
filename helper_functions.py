@@ -57,7 +57,7 @@ def make_confusion_matrix(y_true, y_pred, classes=None, figsize=(10, 10), text_s
          yticks=np.arange(n_classes), 
          xticklabels=labels, # axes will labeled with class names (if they exist) or ints
          yticklabels=labels)
-  ax.title("Confusion Matrix",fontsize=30)
+  plt.title("Confusion Matrix",fontsize=30)
   
   # Make x-axis labels appear on bottom
   ax.xaxis.set_label_position("bottom")
